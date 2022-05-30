@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Mon May 30 18:46:48 2022
+# Make data base, printed on Mon May 30 22:06:07 2022
 
 # Variables
 
@@ -28,7 +27,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\DRAKO\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-563c0ca1-8976-491c-b66c-5f8c647b61e4-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f7d0a073-c0c8-4f45-a6a2-6c04d88181c0-sock
 # environment
 VSCODE_CWD = C:\Users\DRAKO\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -44,7 +43,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17960_UASILKKYJTRESSKM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21292_FOKYYQUHLEUBNOOK
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -107,7 +106,7 @@ PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 17960
+VSCODE_PID = 21292
 # environment
 CLION = C:\Program Files\JetBrains\CLion 2019.2.3\bin;
 # automatic
@@ -185,7 +184,6 @@ USERDOMAIN = LEO-PC
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
- 
 OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := all
@@ -237,7 +235,7 @@ PROCESSOR_REVISION = 7100
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=13/145=9%
+# Load=111/1024=11%, Rehash=0, Collisions=13/144=9%
 
 # Pattern-specific Variable Values
 
@@ -245,10 +243,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Directories
 
- 
-# . (key c:/Users/DRAKO/Desktop/Chip8, mtime 1653819063): 9 files, no impossibilities.
+# . (key c:/Users/DRAKO/Desktop/Chip8, mtime 1653929934): 11 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -258,54 +255,70 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Not a target:
 src/chip8keyboard.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-30 17:53:48
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 build/chip8keyboard.o: src/chip8keyboard.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-30 18:05:55
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 16):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8keyboard.c -c -o ./build/chip8keyboard.o
 
 build/chip8memory.o: src/chip8memory.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-30 16:44:13
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-05-30 19:17:50
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/chip8memory.o
+# automatic
+# * := 
+# automatic
+# < := src/chip8memory.c
+# automatic
+# + := src/chip8memory.c
+# automatic
+# % := 
+# automatic
+# ^ := src/chip8memory.c
+# automatic
+# ? := src/chip8memory.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
 #  recipe to execute (from 'Makefile', line 10):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8memory.c -c -o ./build/chip8memory.o
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-29 20:13:30
+#  Last modified 2022-05-30 19:19:08
 #  File has been updated.
 #  Successfully updated.
 
 Run: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has not been updated.
+#  File has  
+not been updated.
 #  recipe to execute (from 'Makefile', line 25):
-	bin/main.exe
+	bin/main.exe bin/PONG2
 
 build/chip8.o: src/chip8.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-30 18:17:15
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 19):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8.c -c -o ./build/chip8.o
 
 build/chip8stack.o: src/chip8stack.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-30 18:23:21
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 13):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8stack.c -c -o ./build/chip8stack.o
 
@@ -317,41 +330,36 @@ clean:
 	del build\*
 
 # Not a target:
-src/chip8. 
-c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-30 18:17:05
-#  File has been updated.
-#  Successfully updated.
+src/chip8.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 build/chip8screen.o: src/chip8screen.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-30 18:15:54
-#  File has been updated.
-#  Successfully updated.
+#  Modification time never checked.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 22):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8screen.c -c -o ./build/chip8screen.o
 
 # Not a target:
 src/chip8stack.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-30 18:23:13
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 src/chip8memory.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-30 16:44:08
+#  Last modified 2022-05-30 21:20:18
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/chip8screen.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-05-30 18:15:39
-#  File has been updated.
-#  Successfully updated.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -362,34 +370,16 @@ src/chip8screen.c:
 all: build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
 #  Command line target.
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
-# automatic
-# @ := all
-# automatic
-# * := 
-# automatic
-# < := build/chip8memory.o
-# automatic
-# + := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
-# automatic
-# % := 
-# automatic
-# ^ := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
-# automatic
-# ? := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
-# automatic
-# | := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
 #  recipe to execute (from 'Makefile', line 7):
 	gcc ${FLAGS} ${INCLUDES} ./src/main.c ${OBJECTS} -L ./lib -lmingw32 -lSDL2main -lSDL2 -o ./bin/main
 
 # Not a target:
-. 
-SUFFIXES:
+.SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -400,14 +390,15 @@ SUFFIXES:
 
 # No 'vpath' search paths.
 
-# No general ('VPATH' variable) search path.
+# No general ('VPATH' variable) s 
+earch path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 261 B / avg = 10 B
-# current buf: size = 8174 B / used = 261 B / count = 24 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 276 B / avg = 10 B
+# current buf: size = 8174 B / used = 276 B / count = 26 / avg = 10 B
 
-# strcache performance: lookups = 44 / hit rate = 45%
+# strcache performance: lookups = 46 / hit rate = 43%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/44=0%
-# Finished Make data base on Mon May 30 18:46:48 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/46=0%
+# Finished Make data base on Mon May 30 22:06:07 2022
 
  

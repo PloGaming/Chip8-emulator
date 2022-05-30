@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <windows.h>
 
+// Questa è la lista di tutti i tasti che un chip-8 riconosce
 const char keyboard_map[CHIP8_TOTAL_KEYS] = {
     SDLK_0, SDLK_1, SDLK_2, SDLK_3, SDLK_4, SDLK_5,
     SDLK_6, SDLK_7, SDLK_8, SDLK_9, SDLK_a, SDLK_b,
@@ -16,13 +17,12 @@ int main(int argc, char **argv)
 
     if (argc < 2)
     {
-        printf("You must provide a file to load\n");
+        printf("Devi inserire il nome del file da caricare\n");
         exit(EXIT_FAILURE);
     }
 
     const char *filename = argv[1];
     FILE *file = fopen(filename, "rb");
-    printf("Hello1\n");
     if (file == NULL)
     {
         printf("Error accessing the file\n");
@@ -33,18 +33,21 @@ int main(int argc, char **argv)
     long size = ftell(file);
     fseek(file, 0, SEEK_SET);
 
-    printf("Hello1\n");
-
     char *fileData = malloc(size);
     fread(fileData, 1, size, file);
 
-    printf("Hello2\n");
+    // Dichiarazione nostro chip
     struct chip8 chip;
+
+    // Procedura di inizializzazione chip (caricare i font e 0are la memoria)
     chip8_init(&chip);
+
+    // Caricare il programma nel nostro chip-8 e modificare il PC
     chip8_load(&chip, fileData, size);
+
+    // Abbinare la mappatura della tastiera con quella che abbiamo scelto
     chip8_keyboard_set_map(&chip.keyboard, keyboard_map);
 
-    printf("Hello3\n");
     fclose(file);
 
     printf("Caricato programma: %s\n", filename);
@@ -72,10 +75,13 @@ int main(int argc, char **argv)
         {
             switch (event.type)
             {
+
+            // Se l'utente preme il pulsante per uscire beh esce
             case SDL_QUIT:
                 goto out;
                 break;
 
+            // Evento per quando l'utente preme un pulsante
             case SDL_KEYDOWN:
             {
                 char key = event.key.keysym.sym;
@@ -87,6 +93,7 @@ int main(int argc, char **argv)
             }
             break;
 
+            // Evento per quando l'utente lascia un pulsante
             case SDL_KEYUP:
             {
                 char key = event.key.keysym.sym;
@@ -124,7 +131,7 @@ int main(int argc, char **argv)
 
         if (chip.registers.delay_timer > 0)
         {
-            Sleep(1);
+            Sleep(5);
             chip.registers.delay_timer -= 1;
         }
 
@@ -134,8 +141,13 @@ int main(int argc, char **argv)
             chip.registers.sound_timer = 0;
         }
 
+        // Leggere un codice dalla memoria
         unsigned short opcode = chip8_memory_get_short(&chip.memory, chip.registers.program_counter);
+
+        // Incrementare il program counter (PC)
         chip.registers.program_counter += 2;
+
+        // Eseguire il codice
         chip8_exec(&chip, opcode);
     }
 
