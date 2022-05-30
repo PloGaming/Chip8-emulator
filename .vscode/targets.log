@@ -1,0 +1,413 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Mon May 30 18:46:48 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Amazon Corretto\jdk11.0.8_10
+# environment
+LC_ALL = C
+# environment
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# environment
+USERPROFILE = C:\Users\DRAKO
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\DRAKO\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-563c0ca1-8976-491c-b66c-5f8c647b61e4-sock
+# environment
+VSCODE_CWD = C:\Users\DRAKO\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17960_UASILKKYJTRESSKM
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\DRAKO\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\DRAKO\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+ONEDRIVE = C:\Users\DRAKO\OneDrive
+# makefile
+CURDIR := c:/Users/DRAKO/Desktop/Chip8
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+WALLABY_PRODUCTION = true
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic 
+
+@F = $(notdir $@)
+# environment
+PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 17960
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2019.2.3\bin;
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 2)
+FLAGS = -g -std=c99
+# makefile (from 'Makefile', line 1)
+INCLUDES = -I ./include
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{"*":"it"},"_languagePackId":"edd95fe2637dfb670c0c498374f66f34.it","_translationsConfigFile":"C:\\Users\\DRAKO\\AppData\\Roaming\\Code\\clp\\edd95fe2637dfb670c0c498374f66f34.it\\tcf.json","_cacheRoot":"C:\\Users\\DRAKO\\AppData\\Roaming\\Code\\clp\\edd95fe2637dfb670c0c498374f66f34.it","_resolvedLanguagePackCoreLocation":"C:\\Users\\DRAKO\\AppData\\Roaming\\Code\\clp\\edd95fe2637dfb670c0c498374f66f34.it\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\DRAKO\\AppData\\Roaming\\Code\\clp\\edd95fe2637dfb670c0c498374f66f34.it\\corrupted.info","_languagePackSupport":true}
+# environment
+JD2_HOME = C:\Users\DRAKO\AppData\Local\JDownloader 2.0
+# environment
+AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\DRAKO
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Amazon Corretto\jdk11.0.8_10\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\MinGW\bin;C:\Program Files\Vim\vim82;C:\Program Files (x86)\GnuWin32\bin;C:\Users\DRAKO\AppData\Local\Programs\Python\Python38\python.exe;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;C:\Program Files\nodejs\;C:\Users\DRAKO\AppData\Local\Programs\Python\Launcher\;C:\Users\DRAKO\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\DRAKO\AppData\Local\Programs\Python\Python38\;C:\Users\DRAKO\AppData\Local\Microsoft\WindowsApps;C:\Us;C:\Program Files\PuTTY\;C:\Program Files\010 Editor;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files (x86)\Windows Live\Shared;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;C:\Users\DRAKO\AppData\Local\Programs\Python\Launcher\;C:\Users\DRAKO\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\DRAKO\AppData\Local\Programs\Python\Python38\;C:\Users\DRAKO\AppData\Local\Microsoft\WindowsApps;C:\Users\DRAKO\.dotnet\tools;C:\Users\DRAKO\AppData\Local\atom\bin;C:\Users\DRAKO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DRAKO\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\DRAKO\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Users\DRAKO\AppData\Local\Programs\Fiddler;C:\Users\DRAKO\AppData\Roaming\npm;C:\Users\DRAKO\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\CLion 2019.2.3\bin;;C:\Program Files (x86)\mitmproxy\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;;C:\Users\DRAKO\Desktop\risorse;C:\MinGW\bin;
+# environment
+COMPUTERNAME = LEO-PC
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132970212436728362
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;
+# environment
+LOGONSERVER = \\LEO-PC
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = DRAKO
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 4)
+OBJECTS = ./build/chip8memory.o ./build/chip8stack.o ./build/chip8keyboard.o ./build/chip8.o ./build/chip8screen.o
+# environment
+USERDOMAIN = LEO-PC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+ 
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LEO-PC
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
+# environment
+APPDATA = C:\Users\DRAKO\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\DRAKO\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e3e25d20157fc02479093148965b645c-1.67.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-ste 
+m undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+PROCESSOR_REVISION = 7100
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=13/145=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+ 
+# . (key c:/Users/DRAKO/Desktop/Chip8, mtime 1653819063): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/chip8keyboard.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 17:53:48
+#  File has been updated.
+#  Successfully updated.
+
+build/chip8keyboard.o: src/chip8keyboard.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 18:05:55
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	gcc ${FLAGS} ${INCLUDES} ./src/chip8keyboard.c -c -o ./build/chip8keyboard.o
+
+build/chip8memory.o: src/chip8memory.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 16:44:13
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 10):
+	gcc ${FLAGS} ${INCLUDES} ./src/chip8memory.c -c -o ./build/chip8memory.o
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 20:13:30
+#  File has been updated.
+#  Successfully updated.
+
+Run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	bin/main.exe
+
+build/chip8.o: src/chip8.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 18:17:15
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 19):
+	gcc ${FLAGS} ${INCLUDES} ./src/chip8.c -c -o ./build/chip8.o
+
+build/chip8stack.o: src/chip8stack.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 18:23:21
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 13):
+	gcc ${FLAGS} ${INCLUDES} ./src/chip8stack.c -c -o ./build/chip8stack.o
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	del build\*
+
+# Not a target:
+src/chip8. 
+c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 18:17:05
+#  File has been updated.
+#  Successfully updated.
+
+build/chip8screen.o: src/chip8screen.c
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-30 18:15:54
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 22):
+	gcc ${FLAGS} ${INCLUDES} ./src/chip8screen.c -c -o ./build/chip8screen.o
+
+# Not a target:
+src/chip8stack.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 18:23:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/chip8memory.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 16:44:08
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/chip8screen.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 18:15:39
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := build/chip8memory.o
+# automatic
+# + := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# % := 
+# automatic
+# ^ := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# ? := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from 'Makefile', line 7):
+	gcc ${FLAGS} ${INCLUDES} ./src/main.c ${OBJECTS} -L ./lib -lmingw32 -lSDL2main -lSDL2 -o ./bin/main
+
+# Not a target:
+. 
+SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=0/44=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 24 / storage = 261 B / avg = 10 B
+# current buf: size = 8174 B / used = 261 B / count = 24 / avg = 10 B
+
+# strcache performance: lookups = 44 / hit rate = 45%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=0/44=0%
+# Finished Make data base on Mon May 30 18:46:48 2022
+
+ 

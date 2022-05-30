@@ -1,0 +1,14 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/DRAKO/Desktop/Chip8'
+gcc -g -std=c99 -I ./include ./src/chip8memory.c -c -o ./build/chip8memory.o
+ 
+gcc -g -std=c99 -I ./include ./src/chip8stack.c -c -o ./build/chip8stack.o
+ 
+gcc -g -std=c99 -I ./include ./src/chip8keyboard.c -c -o ./build/chip8keyboard.o
+ 
+gcc -g -std=c99 -I ./include ./src/chip8.c -c -o ./build/chip8.o
+ 
+gcc -g -std=c99 -I ./include ./src/chip8screen.c -c -o ./build/chip8screen.o
+gcc -g -std=c99 -I ./include ./src/main.c ./build/chip8memory.o ./build/chip8stack.o ./build/chip8keyboard.o ./build/chip8.o ./build/chip8screen.o -L ./lib -lmingw32 -lSDL2main -lSDL2 -o ./bin/main
+make: Leaving directory 'c:/Users/DRAKO/Desktop/Chip8'
+ 

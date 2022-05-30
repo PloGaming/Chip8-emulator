@@ -1,0 +1,13 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "*.ejs": "html",
+        "chip8.h": "c",
+        "chip8registers.h": "c",
+        "chip8keyboard.h": "c",
+        "chip8stack.h": "c",
+        "config.h": "c",
+        "stdbool.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
