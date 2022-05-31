@@ -22,7 +22,7 @@ all: ${OBJECTS}
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8screen.c -c -o ./build/chip8screen.o
 
 Run: all
-	bin/main.exe
+	bin/main.exe bin/PONG2
 
 clean:
 	del build\*

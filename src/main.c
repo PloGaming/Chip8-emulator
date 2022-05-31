@@ -131,7 +131,7 @@ int main(int argc, char **argv)
 
         if (chip.registers.delay_timer > 0)
         {
-            Sleep(5);
+            Sleep(10);
             chip.registers.delay_timer -= 1;
         }
 

@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 30 22:06:07 2022
+# Make data base, printed on Tue May 31 19:50:31 2022
 
 # Variables
 
@@ -27,7 +27,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\DRAKO\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f7d0a073-c0c8-4f45-a6a2-6c04d88181c0-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-cfa0ba59-c874-4aa6-bb67-e43bc916cb92-sock
 # environment
 VSCODE_CWD = C:\Users\DRAKO\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -39,11 +39,12 @@ PROCESSOR_LEVEL = 23
 # environment
 PSMODULEPATH = C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX
 # default
-MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+MAKE_COMMAND := C:/ProgramData/chocolatey 
+/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21292_FOKYYQUHLEUBNOOK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22472_YYVISMYWFAOXGZHM
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -98,15 +99,14 @@ COMMONPROGRAMW6432 = C:\Program Files\Common Files
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST := Makefile
-# automatic 
-
+# automatic
 @F = $(notdir $@)
 # environment
 PT8HOME = C:\Program Files\Cisco Packet Tracer 8.1.1
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 21292
+VSCODE_PID = 22472
 # environment
 CLION = C:\Program Files\JetBrains\CLion 2019.2.3\bin;
 # automatic
@@ -226,8 +226,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-ste 
-m undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
 # environment
@@ -235,7 +234,7 @@ PROCESSOR_REVISION = 7100
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=13/144=9%
+# Load=111/1024=11%, Rehash=0, Collisions=13/145=9%
 
 # Pattern-specific Variable Values
 
@@ -243,6 +242,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Directories
 
+ 
 # . (key c:/Users/DRAKO/Desktop/Chip8, mtime 1653929934): 11 files, no impossibilities.
 
 # 11 files, no impossibilities in 1 directories.
@@ -255,41 +255,24 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Not a target:
 src/chip8keyboard.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 17:53:48
+#  File has been updated.
+#  Successfully updated.
 
 build/chip8keyboard.o: src/chip8keyboard.c
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2022-05-30 19:17:50
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 16):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8keyboard.c -c -o ./build/chip8keyboard.o
 
 build/chip8memory.o: src/chip8memory.c
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  Last modified 2022-05-30 19:17:50
+#  Last modified 2022-05-30 22:06:37
 #  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := build/chip8memory.o
-# automatic
-# * := 
-# automatic
-# < := src/chip8memory.c
-# automatic
-# + := src/chip8memory.c
-# automatic
-# % := 
-# automatic
-# ^ := src/chip8memory.c
-# automatic
-# ? := src/chip8memory.c
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 10):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8memory.c -c -o ./build/chip8memory.o
 
@@ -303,22 +286,23 @@ Makefile:
 Run: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
-#  File has  
-not been updated.
+#  File has not been updated.
 #  recipe to execute (from 'Makefile', line 25):
 	bin/main.exe bin/PONG2
 
 build/chip8.o: src/chip8.c
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2022-05-30 19:17:50
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 19):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8.c -c -o ./build/chip8.o
 
 build/chip8stack.o: src/chip8stack.c
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2022-05-30 22:06:37
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 13):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8stack.c -c -o ./build/chip8stack.o
 
@@ -331,22 +315,25 @@ clean:
 
 # Not a target:
 src/chip8.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 18:17:05
+#  File has been updated.
+#  Successfully updated.
 
 build/chip8screen.o: src/chip8screen.c
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2022-05-30 22:06:37
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 22):
 	gcc ${FLAGS} ${INCLUDES} ./src/chip8screen.c -c -o ./build/chip8screen.o
 
 # Not a target:
 src/chip8stack.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 21:09:37
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 src/chip8memory.c:
@@ -357,24 +344,43 @@ src/chip8memory.c:
 
 # Not a target:
 src/chip8screen.c:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Implicit rule search has been done.
+#  Last modified 2022-05-30 21:19:57
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification time never che 
+cked.
 #  File has not been updated.
 
 all: build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
 #  Command line target.
 #  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := build/chip8memory.o
+# automatic
+# + := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# % := 
+# automatic
+# ^ := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# ? := build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o build/chip8screen.o
+# automatic
+# | := 
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
 #  recipe to execute (from 'Makefile', line 7):
 	gcc ${FLAGS} ${INCLUDES} ./src/main.c ${OBJECTS} -L ./lib -lmingw32 -lSDL2main -lSDL2 -o ./bin/main
 
@@ -390,8 +396,7 @@ all: build/chip8memory.o build/chip8stack.o build/chip8keyboard.o build/chip8.o 
 
 # No 'vpath' search paths.
 
-# No general ('VPATH' variable) s 
-earch path.
+# No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 26 / storage = 276 B / avg = 10 B
 # current buf: size = 8174 B / used = 276 B / count = 26 / avg = 10 B
@@ -399,6 +404,6 @@ earch path.
 # strcache performance: lookups = 46 / hit rate = 43%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/46=0%
-# Finished Make data base on Mon May 30 22:06:07 2022
+# Finished Make data base on Tue May 31 19:50:31 2022
 
  
